@@ -148,3 +148,31 @@ h6{
     width:618px ;
     height:38px ;
 }
+
+.in4{
+    width: 248px;
+    height: 38px;
+
+    padding: 6px 28px 6px 12px;
+}
+
+.in5{
+    width: 195px;
+    height: 38px;
+    padding: 6px 28px 6px 12px;
+}
+
+.in6{
+    width:142px ;
+    height: 38px;
+
+    padding: 6px 28px 6px 12px;
+}
+
+.cint-input.container{
+    margin-top: 16px;
+}
+
+.input-cont-1{
+    padding: 0px 8px;
+}
