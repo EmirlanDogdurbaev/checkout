@@ -86,3 +86,47 @@ font-weight: 400;
 
     margin-bottom: 8px;
 }
+
+.input-cont-2{
+    margin-top: 10px;
+
+}
+
+.tit-input-2{
+    font-size: 16px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "Segoe UI",
+    Tahoma, Geneva, Verdana, sans-serif;  ;
+    font-weight: 300 ;
+
+    margin-bottom: 8px;
+}
+
+.mini-cont{
+    display: flex;
+    align-content: center;
+  
+
+}
+
+h6{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black ;
+    border-top: 1px solid black ;
+
+    width: 40px;
+    font-size: 16px;
+    text-align: center;
+
+    padding-top: 10px;
+    background-color: rgb(192, 185, 185);
+
+ 
+
+
+}
+
+.in2{
+    width: 578px;
+    height: 38px;
+}
