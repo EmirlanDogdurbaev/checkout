@@ -1,123 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <main class="big-container">
-      <img class="logo" src="./bootstrap-logo.svg" width="70px" alt="" />
-      <h1 id="title">Checkout form</h1>
-      <p class="title-par">
-        Below is an example form built entirely with Bootstrap’s form controls.
-        Each required form group has a validation state that can be triggered by
-        attempting to submit the form without completing it.
-      </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 
-      <section class="container-1">
-        <h4 id="title-in">Billing address</h4>
-        <div class="cint-input">
-          <div class="input-cont-1">
-            <h5 class="tit-input">First name</h5>
-            <input class="in1" type="text" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
 
-          </div>
-          <div class="input">
-            <h5 class="tit-input">last name</h5>
-            <input class="in1" type="text" />
+<body>
+  <main class="big-container">
+    <img class="logo" src="./bootstrap-logo.svg" width="70px" alt="" />
+    <h1 id="title">Checkout form</h1>
+    <p class="title-par">
+      Below is an example form built entirely with Bootstrap’s form controls.
+      Each required form group has a validation state that can be triggered by
+      attempting to submit the form without completing it.
+    </p>
 
-          </div>
+    <section class="container-1">
+      <h4 id="title-in">Billing address</h4>
+      <div class="cint-input">
+        <div class="input-cont-1">
+          <h5 class="tit-input">First name</h5>
+          <input class="in1" type="text" />
+
         </div>
+        <div class="input">
+          <h5 class="tit-input">last name</h5>
+          <input class="in1" type="text" />
 
-        <div class="input-cont-2">
-          <div class="input2">
-            <h5 class="tit-input-2">Username</h5>
-          </div>
-          <div class="mini-cont">
-            <h6>@</h6>
-            <input class="in2" type="text" placeholder="Username" />
-
-          </div>
         </div>
+      </div>
 
-        <div class="input-cont-2">
-          <div class="input3">
-            <h5 class="tit-input-2">Email</h5>
-            <h5 class="tit-input-3">(Optional)</h5>
-          </div>
-          <div class="mini-cont">
-            <input class="in3" type="text" placeholder="you@example.com" />
-
-          </div>
+      <div class="input-cont-2">
+        <div class="input2">
+          <h5 class="tit-input-2">Username</h5>
         </div>
+        <div class="mini-cont">
+          <h6>@</h6>
+          <input class="in2" type="text" placeholder="Username" />
 
-        <div class="input-cont-2">
-          <div class="input3">
-            <h5 class="tit-input-2">Address</h5>
-          </div>
-          <div class="mini-cont">
-            <input class="in3" type="text" placeholder="1234 Main ST" />
-
-          </div>
         </div>
+      </div>
 
-
-        <div class="input-cont-2">
-          <div class="input3">
-            <h5 class="tit-input-2">Address 2</h5>
-            <h5 class="tit-input-3">(Optional)</h5>
-          </div>
-          <div class="mini-cont">
-            <input class="in3" type="text" placeholder="Apartment or suite" />
-
-          </div>
+      <div class="input-cont-2">
+        <div class="input3">
+          <h5 class="tit-input-2">Email</h5>
+          <h5 class="tit-input-3">(Optional)</h5>
         </div>
+        <div class="mini-cont">
+          <input class="in3" type="text" placeholder="you@example.com" />
 
-
-
-
-        <div class="cint-input container">
-          <div class="input-cont-1">
-            <h5 class="tit-input">Country</h5>
-            <input class="in4 placholder" list="cocktail" placeholder="Choice.." type="text" id="in6" />
-            <datalist id="cocktail">
-             <option>Choice..</option>
-             <option>united states</option>
-         
-          </div>
-          <div class="input">
-            <h5 class="tit-input">State</h5>
-            <input class="in5 placholder" list="cocktail" placeholder="Choice.." type="text" id="in6" />
-            <datalist id="cocktail">
-             <option>Choice..</option>
-             <option>California</option>
-
-          </div>
-          <div class="input">
-            <h5 class="tit-input">Zip</h5>
-            <input class="in6 placholder" type="text" />
-          </div>
         </div>
- 
+      </div>
 
-        <div class="checkbox-container">
-          <hr>
-          <label class="checkbox-input" ><input type="checkbox"/> Shipping address is the same as my billing address
-          </label>
-          <label class="checkbox-input"><input  type="checkbox"/> Save this information for next time</label>
-          <hr>
-<h2 class="checkbox-title">Payment</h2>
-<label><input type="radio" checked name="dva"/> описание1</label> 
-<label><input type="radio" name="dva"/> описание2</label>
-<label><input type="radio" checked name="dva"/> описание1</label> 
+      <div class="input-cont-2">
+        <div class="input3">
+          <h5 class="tit-input-2">Address</h5>
         </div>
+        <div class="mini-cont">
+          <input class="in3" type="text" placeholder="1234 Main ST" />
 
-    
+        </div>
+      </div>
 
-      </section>
-    </main>
-  </body>
+
+      <div class="input-cont-2">
+        <div class="input3">
+          <h5 class="tit-input-2">Address 2</h5>
+          <h5 class="tit-input-3">(Optional)</h5>
+        </div>
+        <div class="mini-cont">
+          <input class="in3" type="text" placeholder="Apartment or suite" />
+
+        </div>
+      </div>
+
+
+
+
+      <div class="cint-input container">
+        <div class="input-cont-1">
+          <h5 class="tit-input">Country</h5>
+          <input class="in4 placholder" list="cocktail" placeholder="Choice.." type="text" id="in6" />
+          <datalist id="cocktail">
+            <option>Choice..</option>
+            <option>united states</option>
+
+        </div>
+        <div class="input">
+          <h5 class="tit-input">State</h5>
+          <input class="in5 placholder" list="cocktail" placeholder="Choice.." type="text" id="in6" />
+          <datalist id="cocktail">
+            <option>Choice..</option>
+            <option>California</option>
+
+        </div>
+        <div class="input">
+          <h5 class="tit-input">Zip</h5>
+          <input class="in6 placholder" type="text" />
+        </div>
+      </div>
+
+
+      <div class="checkbox-container">
+        <hr>
+        <label class="checkbox-input"><input type="checkbox" /> Shipping address is the same as my billing address
+        </label>
+        <label class="checkbox-input"><input type="checkbox" /> Save this information for next time</label>
+        <hr>
+
+      </div>
+
+
+      <div class="checkbox-container-second">
+
+        <h4> Payment </h4>
+        <span class="span-container">
+          <div class="label-container-1">
+            <label class="label-input" name="tri" id="tri1">Credit card</label>
+            <label class="label-input past" name="tri" id="tri1"> Debit card</label>
+            <label class="label-input " name="tri" id="tri1"> PayPal</label>
+
+
+          </div>
+
+          <div class="label-container-2">
+            <input type="radio" checked="checked" name="tri" class="label" id="tri1" />
+            <input type="radio" checked="checked" name="tri" class="label" id="tri1" />
+            <input type="radio" checked="checked" name="tri" class="label" id="tri1" />
+          </div>
+        </span>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
