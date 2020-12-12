@@ -202,7 +202,7 @@ hr {
 /* .checkbox-container-second {
  
 } */
-
+/* 
 .span-container{
   display: flex;
 
@@ -249,4 +249,11 @@ height: 20px;
 
   
   
+} */
+
+.label-container-1{
+  display: flex;
+align-items: center;
+
 }
+
