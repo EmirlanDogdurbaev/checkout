@@ -5,6 +5,9 @@
 body {
   margin: 0;
   background-color: #f8f9fa;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "Segoe UI",
+  Tahoma, Geneva, Verdana, sans-serif;
 }
 h1,
 h2,
@@ -15,7 +18,7 @@ h6,
 p {
   margin: 0;
 }
-
+/* это самый большой  и важный контайнер  */
 .big-container {
   display: flex;
   flex-direction: column;
@@ -25,12 +28,12 @@ p {
   max-width: 960px;
   padding: 48px 0px;
 }
-
+/* логотип */
 .logo {
   margin: auto;
   margin-bottom: 24px;
 }
-
+/* самое первое и главный заголовок id= "title"  */
 #title {
   text-align: center;
   font-size: 32px;
@@ -41,7 +44,7 @@ p {
     Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
 }
-
+/* самое первое и главный параграф id= "title-par" */
 .title-par {
   text-align: center;
   max-width: 936px;
@@ -55,6 +58,8 @@ p {
   font-weight: 300;
 }
 
+
+/* это третий по значимости контайнер который содержит первую колонку инпутов id= "container-1" */
 .container-1 {
   display: flex;
   flex-direction: column;
@@ -62,6 +67,8 @@ p {
   max-width: 618px;
 }
 
+
+/*это название контайнера (третий по значимости) id= " title-in "*/
 #title-in {
   font-size: 24px;
   font-weight: 400;
@@ -72,18 +79,21 @@ p {
   margin-bottom: 16px;
 }
 
+
+/*  этот див контайнер  отвечает за первые инпуты в начале контайнера id= "cint-input" */
 .cint-input {
   display: flex;
   justify-content: space-between;
 }
-.input-cont-1 {
+
+
+/* этот див в ответе за самый первый инпут id= "input-cont-1" */
+.input-cont-1{
+  margin-top: 16px;
 }
 
-.in1 {
-  width: 301px;
-  height: 31px;
-}
 
+/* это название самого первого инпута id= "tit-input" */
 .tit-input {
   font-size: 16px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -94,10 +104,21 @@ p {
   margin-bottom: 8px;
 }
 
+
+/* это название самого первого инпута id= "in1" */
+.in1 {
+  width: 301px;
+  height: 31px;
+}
+
+
+/* этот див контайнер  отвечает за второй инпут в начале контайнера id= "input-cont-2 */
 .input-cont-2 {
   margin-top: 16px;
 }
 
+
+/* это название третьего инпута id= "tit-input-2" */
 .tit-input-2 {
   font-size: 16px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -109,11 +130,15 @@ p {
   margin-bottom: 8px;
 }
 
+
+/* этот контайнер в ответе за третий инпут  id= "mini-cont" */
 .mini-cont {
   display: flex;
   align-content: center;
 }
 
+
+/* -это текст должен быть в центре рамки */
 #hh6 {
   border-left: 1px solid black;
   border-bottom: 1px solid black;
@@ -129,16 +154,22 @@ p {
   background-color: rgb(221, 213, 213);
 }
 
+
+/* это название третьего инпута id= "in2" */
 .in2 {
   width: 578px;
   height: 38px;
   border-color: #ced4da;
 }
 
+
+/* этот див в ответе за четвертый инпут в начале контайнера id= "input3" */
 .input3 {
   display: flex;
 }
 
+
+/* это второе название четвертого инпута id= "tit-input-3" */
 .tit-input-3 {
   font-size: 16px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -149,11 +180,15 @@ p {
   margin-bottom: 8px;
 }
 
+
+/* это название четвертого инпута id= "in3" */
 .in3 {
   width: 618px;
   height: 38px;
 }
 
+
+/*  этот див в ответе за седьмой инпут в начале контайнера id= "input-cont-1" */
 .in4 {
   width: 248px;
   height: 38px;
@@ -161,12 +196,16 @@ p {
   padding: 6px 28px 6px 12px;
 }
 
+
+/* здесь раположен инпут внутри которого есть текст с списком id= "in5 placholder" */
 .in5 {
   width: 195px;
   height: 38px;
   padding: 6px 28px 6px 12px;
 }
 
+
+/* здесь раположен инпут внутри которого есть текст с списком id= "in6 placholder" */
 .in6 {
   width: 142px;
   height: 38px;
@@ -174,18 +213,26 @@ p {
   padding: 6px 28px 6px 12px;
 }
 
+
+/*  этот див контайнер  отвечает за седьмой инпут в начале контайнера id= "cinit-input container" */
 .cint-input.container {
   margin-top: 16px;
 }
 
+/*  этот див в ответе за седьмой инпут в начале контайнера id= "input-cont-1" */
 .input-cont-1 {
   padding: 0px 8px;
 }
 
+
+/* тут надо изменить цвет на черный id="in4 placholder" */
 .placholder::placeholder {
   color: black;
 }
 
+
+
+/* этот див в ответе за список чекбоксов id= "checkbox-container" */
 .checkbox-container {
   display: flex;
   flex-direction: column;
@@ -205,13 +252,21 @@ hr {
     Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+
+
+
+/* -этот контайнер в ответе за то что бы обьединит чекбокс списка id="span-container" */
+.span-container-2 {
+  margin-top: 25px;
+}
+
+
+
+/* этот контайнер  отвечает за ровность списка чекбоксов id="label-container-1 " */
 .label-container-1 {
   display: flex;
   align-items: center;
-}
-
-.span-container-2 {
-  margin-top: 25px;
 }
 
 .label {
@@ -239,6 +294,8 @@ hr {
   height: 38px;
 }
 
+
+/* -Этот контайнер обьединяет название и инпут в один flex контайнер id="form-control-first"- */
 .form-control-first {
   margin-right: 25px;
 }
